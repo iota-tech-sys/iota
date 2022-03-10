@@ -1,13 +1,10 @@
 module.exports = {
-  purge: [
-    "./_includes/**/*.html",
-    "./_layouts/**/*.html",
-    "./pages/*.html",
-    "./pages/*.md",
-    "./_posts/*.md",
-    "./*.html",
+  content: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './_posts/*.md',
+    './*.html',
   ],
-  darkMode: false,
   theme: {
     extend: {},
   },

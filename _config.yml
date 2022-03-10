@@ -1,22 +1,10 @@
-url: "http://iotatechsys.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Iota Tech" # the name of your site, e.g. ACME Corp.
+baseurl: ""
+title: "Iota Tech"
 
 plugins:
   - jekyll-postcss
 
-sass:
-  sourcemap: never
-
-sass:
-  load_paths:
-    - _sass
-    - node_modules
-
 include: ["node_modules/tailwindcss"]
-
-postcss:
-  cache: false
 
 exclude:
   - .gitignore
@@ -24,9 +12,3 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - README.md
-  # - assets/css/tailwind.scss
-
-# files Jekyll should not delete from .site
-keep_files:
-  - assets/css/tailwind.css
-  - assets/css/tailwind.css.map
