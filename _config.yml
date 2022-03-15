@@ -6,6 +6,11 @@ plugins:
 
 include: ["node_modules/tailwindcss"]
 
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
 exclude:
   - .gitignore
   - bin
