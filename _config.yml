@@ -15,4 +15,3 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - README.md
-  - .nojekyll
