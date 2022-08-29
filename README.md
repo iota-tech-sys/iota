@@ -40,10 +40,3 @@ Note: Delete `.site` and it’s contents to see the production build output.
 ```bash
 bin/build-prod
 ```
-
-## Credit
-
-Thanks to [@joemasilotti](https://github.com/joemasilotti) for sharing his build
-scripts [here](https://github.com/joemasilotti/masilotti.com/tree/main/bin).
-
-Say hi [@stef_coetzee](https://twitter.com/stef_coetzee)!
