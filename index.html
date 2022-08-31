@@ -3,25 +3,25 @@ title: Iota Technology Systems
 layout: default
 ---
 
-{% include header.html %}
-
 <main class="bg-white">
+<main class="bg-white mx-auto px-4 max-w-7xl sm:px-6 lg:px-8">
+
+    <div class="">
+        {% include header.html %}
+    </div>
 
     {% include hero.html %}
 
-    <section id="case-studies" class="mx-auto py-2 px-4 max-w-7xl sm:px-6 lg:px-8 py-8">
+    <section id="case-studies" class="py-8">
         {% include case-studies2.html %}
     </section>
 
-    <!-- <section id="contact" class="mx-auto py-2 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-16">
-       {% include contact.html %}
-    </section> -->
-
-    <section id="about" class="mx-auto py-2 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-10">
+    <section id="about" class="py-2 lg:py-10">
         {% include about.html %}
     </section>
 
+    {% include footer.html %}
+
 </main>
 
-{% include footer.html %}
 
