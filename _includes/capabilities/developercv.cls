@@ -42,6 +42,8 @@
 
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
+\usepackage{booktabs} 
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
@@ -92,6 +94,8 @@
 %---------------------------------------------------------------------------------------- 
 
 \usepackage{tikz} % Required for creating the plots
+\usepackage{pgf-pie}  
+\usepackage{array}
 \usetikzlibrary{shapes, backgrounds}
 \tikzset{x=1cm, y=1cm} % Default tikz units
 
@@ -169,9 +173,15 @@
 %----------------------------------------------------------------------------------------
 
 % Command to output section title headings
-\newcommand{\cvsect}[1]{% The only parameter is the section text
+\newcommand{\cvsectc}[1]{% The only parameter is the section text
 	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{white}{\textcolor{black}{\MakeUppercase{\textbf{#1}}}}\\% Section title
+	\colorbox{cyan}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}\\% Section title
+}
+
+% Command to output section title headings
+\newcommand{\cvsectb}[1]{% The only parameter is the section text
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{black}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}\\% Section title
 }
 
 %----------------------------------------------------------------------------------------
@@ -203,4 +213,4 @@
 	}\\\\}
 
 % Command to output a separator slash between lists, e.g. '  /  '
-\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+\newcommand{\slashsep}{\hspace{3mm}|\hspace{3mm}}

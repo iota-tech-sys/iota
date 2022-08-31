@@ -48,38 +48,46 @@
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{MapMarker}{12}{New York, NY}\\
+	\icon{Female}{12}{Yoora Yi Tenen, Founder}\\
 	\icon{Phone}{12}{(505) 396-9966}\\
-	\icon{At}{12}{\href{mailto:alyx@vance.me}{yyt@iotatechsys.com}}\\	
+    \icon{Globe}{12}{\href{https://iotatechsys.com}{iotatechsys.com}}\\
+    \icon{At}{12}{\href{mailto:yyt@iotatechsys.com}{yyt@iotatechsys.com}}\\	
 \end{minipage}
 
 
 \vspace{0.5cm}
 
 %----------------------------------------------------------------------------------------
-%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%	Who We Are, Core Comp
 %----------------------------------------------------------------------------------------
 
-
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+\begin{minipage}[t]{0.55\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\cvsect{Who we are}
+	\cvsectc{Who we are}
 
-	We are a minority and women-owned small business with a passion for clean, performant, and sustainable code. Our team represents decades of experience in building industry-leading software solutions at scale, with expertise in software development, system architecture, testing, database management, cloud orchestration, security, and data analytics. % Dummy text
+	We are a minority, woman-owned small business with a passion for clean, performant, and sustainable code. Our team represents decades of experience in building industry-leading software solutions at scale, with expertise in software development, system architecture, testing, database management, cloud orchestration, security, and data analytics.
+ 
 \end{minipage}
 \hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+\begin{minipage}[t]{0.38\textwidth} % 50% of the page for the skills bar chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
- 	\cvsect{Core Competence}
+ 	\cvsectb{Core Competences}
 
-	\begin{barchart}{5.5}
-		\baritem{Software Dev}{60}
-		\baritem{Data Science}{40}
-		\baritem{Migration}{50}
-		\baritem{Compliance}{50}
-		\baritem{Git}{50}
-		\baritem{LaTeX}{50}
-	\end{barchart}
+    \begin{tikzpicture}
+
+        \pie[
+            color={white, white, white, white}, 
+            hide number,
+            text=inside,
+            radius=2.85,
+            explode = {.3, 0, 0, 0}
+            ]           
+            {35/CODE,
+            35/DATA,
+            15/Security,
+            15/Support}
+ 
+    \end{tikzpicture}
 \end{minipage}
 
 %\begin{center}
@@ -87,82 +95,75 @@
 %\end{center}
 
 %----------------------------------------------------------------------------------------
-%	EXPERIENCE
+%	Performance
 %----------------------------------------------------------------------------------------
 
-\cvsect{Experience}
+\cvsectb{Performance Case Studies}
 
 \begin{entrylist}
 	\entry
-		{2017 -- 3/2018}
-		{Front-end developer}
-		{Big Corporation Name Inc.}
-		{\lorem \lorem \lorem\\ \texttt{node.js}\slashsep\texttt{Vue.js}\slashsep\texttt{Electron}}
+		{Case 1\\\footnotesize{App}}
+		{Online Employee Wellness Platform}
+		{ }
+		{Developed an app platform for a large institutional client. Tools for managing team wellness (e.g. university vaccination records). Mobile app access for team members. API integration with PeopleSoft records. Automated reporting and compliance. 
+        \\ 
+        \texttt{Rails}\slashsep
+        \texttt{Vue.js}\slashsep
+        \texttt{PostgreSQL}\slashsep\texttt{Heroku}\slashsep\texttt{Vercel}}
 	\entry
-		{2015 -- 2018\\\footnotesize{part time}}
-		{Full stack developer}
-		{Famous Eshop Inc.}
-		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{JS}\slashsep\texttt{MariaDB}\slashsep\texttt{Linux}}
-	\entry
-		{2013 -- 2014\\\footnotesize{part time}}
-		{Junior PHP Developer}
-		{example.com}
-		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{Laravel}}
+		{Case 2\\\footnotesize{Network security}}
+		{Detect Fraudulent Traffic}
+		{ }
+		{Implemented machine learning techniques to monitor 50k+ requests per minute to detect and block fraudulent ad traffic, increasing revenue and preventing unauthorized access to user transactions.
+        \\ 
+        \texttt{AWS}\slashsep
+        \texttt{Lambda}\slashsep
+        \texttt{SageMaker}\slashsep
+        \texttt{Redis}}
+	   \entry
+		{Case 3\\\footnotesize{Data analysis}}
+		{Social Media Segmentation}
+		{ }
+		{During the COVID-19 Public Health Emergency, our team worked with partners at the Center for Disease Control to collect and study millions of vaccine-hesitant messages online with the goal of tailoring a nation-wide social media campaign to target at at-risk demographics, measurably improving public health outcomes. 
+        \\ 
+        \texttt{Python}\slashsep
+        \texttt{Spacy}\slashsep
+        \texttt{TensorFlow}}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION
+%	Corp Data
 %----------------------------------------------------------------------------------------
 
-\cvsect{Education}
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning %minipages
 
-\begin{entrylist}
-	\entry
-		{2013 -- 2017}
-		{Master's Degree}
-		{Another University Name}
-		{\lorem\lorem\lorem}
-	\entry
-		{2014}
-		{Postgraduate Diploma}
-		{A University Name}
-		{\lorem\lorem}
-	\entry
-		{2007 -- 2013}
-		{Bachelor's Degree}
-		{A University Name}
-		{\lorem\lorem}
-\end{entrylist}
+	\cvsectc{Address}
+	
+	\textbf{Iota Tech Systems LLC}\\
+	2727 Palisade Ave. \#15J\\
+	New York, NY 10463
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning %minipages
+	
+	\cvsectb{Registrations}
+	
+	\textbf{UEI} V22CJ8M2D7K5\\
+    \textbf{CAGE} 9C2P9
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning %minipages
+	
+	\cvsectc{NAICS}
+	
+    \textbf{541512} Computer Systems Design Services\\
+    \textbf{541511} Custom Computer Programming Services\\
+    \textbf{518210} Data Processing, Hosting, and Related Services
 
-%----------------------------------------------------------------------------------------
-%	ADDITIONAL INFORMATION
-%----------------------------------------------------------------------------------------
-
-%\begin{minipage}[t]{0.3\textwidth}
-	%\vspace{-\baselineskip} % Required for vertically aligning %minipages
-
-	%\cvsect{Languages}
-	
-	%\textbf{English} - native\\
-	%\textbf{German} - proficient\\
-	%\textbf{Polish} - rudimentary
-%\end{minipage}
-%\hfill
-%\begin{minipage}[t]{0.3\textwidth}
-	%\vspace{-\baselineskip} % Required for vertically aligning %minipages
-	
-	%\cvsect{Hobbies}
-	
-	%I love... \lorem
-%\end{minipage}
-%\hfill
-%\begin{minipage}[t]{0.3\textwidth}
-	%\vspace{-\baselineskip} % Required for vertically aligning %minipages
-	
-	%\cvsect{Non profit}
-	
-	%I help... \lorem
-%\end{minipage}
+\end{minipage}
 
 %----------------------------------------------------------------------------------------
 
