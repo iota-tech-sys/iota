@@ -2086,20 +2086,6 @@ select {
 .artboard.phone {
   width: 320px;
 }
-.avatar.online:before {
-  content: "";
-  position: absolute;
-  z-index: 10;
-  display: block;
-  border-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--su) / var(--tw-bg-opacity));
-  width: 15%;
-  height: 15%;
-  top: 7%;
-  right: 7%;
-  box-shadow: 0 0 0 2px hsl(var(--b1));
-}
 .aspect-w-3 {
   position: relative;
   padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
@@ -2455,10 +2441,6 @@ select {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -2466,6 +2448,10 @@ select {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -2482,6 +2468,9 @@ select {
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+.pt-8 {
+  padding-top: 2rem;
 }
 .pt-10 {
   padding-top: 2.5rem;
