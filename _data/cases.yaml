@@ -1,0 +1,26 @@
+- title: Employee Wellness Platform
+  tag: Software Development
+  img_url: assets/images/wellsign.png
+  text: >
+    Using Rails, VUE, and PostgreSQL on Heroku and Vercel cloud infrastructure we developed
+    a scalable app platform for a client serving large institutional partners. The app provided
+    a desktop interface for administrators managing team wellness requirements (for example,
+    university vaccination records), alongside mobile app access for team members. API
+    integration with PeopleSoft records. Automated reporting and compliance requirements.
+
+- title: Detect Fraudulent Traffic
+  tag: Security
+  img_url: https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+  text: >
+    Our engineers implemented live-wire machine learning techniques to monitor 50k+ requests
+    per minute to detect and block fraudulent ad traffic. Impacted the bottom line by
+    increasing revenue and preventing unauthorized access to user transactions.
+
+- title: Social Media Segmentation
+  tag: Data Analysis
+  img_url: assets/images/chart.png
+  text: >
+    During the COVID-19 Public Health Emergency, our team worked with partners at the Center
+    for Disease Control to collect and study millions of vaccine-hesitant messages online with
+    the goal of tailoring a nation-wide social media campaign to target at at-risk
+    demographics, measurably improving public health outcomes.
