@@ -1,0 +1,56 @@
+<div class="bg-white space-y-6 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+
+    <div class="space-y-5 sm:space-y-4">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+            <span class="">team </span>
+                <span class="bg-sky-600 font-sans font-bold text-white">&nbsp;iota&nbsp;</span>
+            <hr>
+        </h2>
+    </div>
+
+    <div class="lg:col-span-2">
+        <ul class="space-y-12 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
+
+            {% for member in site.data.team %}
+
+            <li class="sm:py-8">
+
+                <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+
+                    <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                        <img class="object-cover shadow-lg rounded-lg" src="{{ member.photo }}" alt="Team Bio Photo">
+                    </div>
+
+                    <div class="sm:col-span-2">
+                        <div class="space-y-4">
+                              <div class="text-lg leading-6 font-medium space-y-1">
+                                  <h3>
+                                      {{ member.name }}
+                                  </h3>
+                                  <p class="text-sky-600">{{ member.title }} </p>
+                              </div>
+                              <p class="text-lg text-gray-500">
+                                  {{ member.bio }}
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<!-- <li class="sm:py-8">
+              We are a minority, woman-owned small business with a passion for
+              clean, performant, and sustainable code. Our team represents decades of
+              experience in building industry-leading software solutions at scale,
+              with expertise in software development, system architecture, testing,
+              database management, cloud orchestration, security, and data
+              analytics.<br><br>
+
+              View our <a href="https://github.com/iota-tech-sys/iota/raw/main/_includes/capabilities/iota_capabilities.pdf">
+                  <span class="text-slate-600 underline">Capability Statement here<span></a>.
+
+</li> -->
+
