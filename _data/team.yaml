@@ -1,0 +1,25 @@
+- name: Yoora Yi Tenen
+  title: Founder / CTO
+  photo: assets/images/yoora-profile.jpg
+  bio: >
+    Senior software engineer with deep experience supporting both public and private clients.
+    Backend and front-end development on an enterprise livel. Passion for clean, performant,
+    and well-tested code. Most recently using Ruby on Rails, Vue, Postgres, MySQL, GraphQL,
+    AWS, and Redis.
+
+- name: Julian Salama
+  title: Lead Consultant / Developer
+  photo: assets/images/julian-profile.png
+  bio: >
+    More than a decade experience in building high-scale, robust systems for large enterprise.
+    Emphasis on compliance, privacy, and security, in the domain of e-commerce, finance, and
+    logistics. Extensive cloud architecture and mobile development expertise.
+
+- name: Dennis Yi Tenen
+  title: Lead Consultant / Developer
+  photo: assets/images/denten.jpg
+  bio: >
+    Faculty affiliate at the Data Science Institute, Columbia University. Former Software
+    Engineer at WebTV & Microsoft, Windows Media Center Team. Expertise in Natural Language
+    Processing, social media analysis, machine learning, AI chat and decision systems.
+    Executive and user training. Education and health liason.
